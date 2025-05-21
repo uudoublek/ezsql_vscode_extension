@@ -1,0 +1,23 @@
+{
+    "ezsql:init": {
+        "prefix": "init",
+        "body": [
+            "<head>",
+            "${1}",
+            "</head>",
+            "<body>",
+            "$0",
+            "</body>",
+            "<config>",
+            "</config>"
+        ],
+        "description": "init ezsql file"
+    },
+    "ezsql:refernce": {
+        "prefix": "ref",
+        "body": [
+            "@{${1},indent=${2}}"
+        ],
+        "description": "reference stmt"
+    }
+}
