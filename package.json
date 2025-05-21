@@ -10,6 +10,10 @@
     "Other"
   ],
   "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uudoublek/ezsql_vscode_extension"
+  },
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
